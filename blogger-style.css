@@ -1,0 +1,53 @@
+#页内重点 {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+  scroll-margin-top: 5vh;
+}
+
+#页内重点:visited{
+  color: grey;
+}
+
+#页内重点:hover {
+  color: blue;
+}
+
+
+#跳转外链 {
+  color: green;
+  text-decoration: none;
+  scroll-margin-top: 5vh;
+}
+
+#跳转外链:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#跳转外链:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+@media (max-width: 600px) {
+  img {
+    width: 60%;
+    height: 60%;
+  }
+}
+
+@media (min-width: 601px) {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+日期+更新记录：
+#日期 {
+  font color: #a5a5a5;
+  size= 3px;
+}
